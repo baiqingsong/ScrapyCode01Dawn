@@ -1,0 +1,2902 @@
+2017-12-07 14:45:09 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: ScrapyCode01Dawn)
+2017-12-07 14:45:09 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'ScrapyCode01Dawn.spiders', 'SPIDER_MODULES': ['ScrapyCode01Dawn.spiders'], 'LOG_FILE': 'scrapy.log', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36', 'BOT_NAME': 'ScrapyCode01Dawn'}
+2017-12-07 14:45:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-12-07 14:45:09 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-12-07 14:45:09 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-12-07 14:45:09 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCode01Dawn.pipelines.CollectipsPipeline']
+2017-12-07 14:45:09 [scrapy.core.engine] INFO: Spider opened
+2017-12-07 14:45:09 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-12-07 14:45:09 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-12-07 14:45:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xicidaili.com/nn/1> (referer: None)
+2017-12-07 14:45:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xicidaili.com/nn/2> (referer: None)
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:40',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.059',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 12:44',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.861',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 14:40',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.056',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'53281',
+ 'LAST_CHECK_TIME': u'17-12-07 12:44',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.043',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:39',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.299',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:38',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.238',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 12:41',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.071',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:40',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.269',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:36',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.298',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 14:36',
+ 'PORT': u'\n        \u957f\u57ce\u5bbd\u5e26\n      ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.07',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:39',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.847',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:39',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.054',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:35',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.004',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:35',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.27',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:34',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.071',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'21788',
+ 'LAST_CHECK_TIME': u'17-12-07 12:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.417',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.827',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.559',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'20256',
+ 'LAST_CHECK_TIME': u'17-12-07 14:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.085',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'31696',
+ 'LAST_CHECK_TIME': u'17-12-07 14:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.619',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'80',
+ 'LAST_CHECK_TIME': u'17-12-07 12:30',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.599',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8010',
+ 'LAST_CHECK_TIME': u'17-12-07 12:30',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.49',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 12:27',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.324',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:24',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.048',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.587',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:32',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.017',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'80',
+ 'LAST_CHECK_TIME': u'17-12-07 14:32',
+ 'PORT': u'\n        \u94c1\u901a\n      ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.671',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.631',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'80',
+ 'LAST_CHECK_TIME': u'17-12-07 14:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.064',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.228',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 12:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.304',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'21522',
+ 'LAST_CHECK_TIME': u'17-12-07 12:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.038',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 12:21',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.368',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 14:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.021',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 14:31',
+ 'PORT': u'\n        \n      ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.024',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.04',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'63000',
+ 'LAST_CHECK_TIME': u'17-12-07 14:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.067',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'48888',
+ 'LAST_CHECK_TIME': u'17-12-07 12:15',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.051',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'28353',
+ 'LAST_CHECK_TIME': u'17-12-07 12:15',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.304',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 12:15',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.456',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 12:13',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.3',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.055',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:30',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.033',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 14:30',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.116',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:30',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.719',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:12',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.123',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8010',
+ 'LAST_CHECK_TIME': u'17-12-07 12:10',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.884',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:05',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.701',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:05',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.34',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 14:30',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.169',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:24',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.12',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:23',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.071',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.177',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.087',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 12:04',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.052',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 12:03',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.259',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 11:55',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.061',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 11:54',
+ 'PORT': u'\n        \u957f\u57ce\u5bbd\u5e26\n      ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.02',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.735',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.024',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.206',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:21',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.071',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:20',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.561',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 11:50',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.384',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'35593',
+ 'LAST_CHECK_TIME': u'17-12-07 11:45',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.138',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 11:44',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.071',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 11:39',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.072',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:20',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.503',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:20',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.024',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:18',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.417',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:17',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.241',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 11:37',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.046',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'23464',
+ 'LAST_CHECK_TIME': u'17-12-07 11:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.506',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 11:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.083',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'34258',
+ 'LAST_CHECK_TIME': u'17-12-07 11:11',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.458',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 14:17',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.053',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:17',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.044',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:15',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.983',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'24934',
+ 'LAST_CHECK_TIME': u'17-12-07 14:15',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.107',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 11:10',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.186',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 11:08',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.218',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 11:07',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.016',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'61234',
+ 'LAST_CHECK_TIME': u'17-12-07 11:06',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.039',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:15',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.079',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:14',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.046',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 14:12',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.078',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:09',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.062',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:03',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.087',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 11:05',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.947',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8010',
+ 'LAST_CHECK_TIME': u'17-12-07 11:00',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.455',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'41663',
+ 'LAST_CHECK_TIME': u'17-12-07 10:55',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.27',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 10:50',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.033',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:03',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.054',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'48888',
+ 'LAST_CHECK_TIME': u'17-12-07 14:01',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.281',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'48888',
+ 'LAST_CHECK_TIME': u'17-12-07 14:00',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.16',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 14:00',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.153',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'26008',
+ 'LAST_CHECK_TIME': u'17-12-07 10:45',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.317',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'25389',
+ 'LAST_CHECK_TIME': u'17-12-07 10:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.055',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'42793',
+ 'LAST_CHECK_TIME': u'17-12-07 10:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.03',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 14:00',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.088',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'80',
+ 'LAST_CHECK_TIME': u'17-12-07 13:59',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.03',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:59',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.068',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'20911',
+ 'LAST_CHECK_TIME': u'17-12-07 10:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.036',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'443',
+ 'LAST_CHECK_TIME': u'17-12-07 10:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.692',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'32353',
+ 'LAST_CHECK_TIME': u'17-12-07 10:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.611',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:58',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.063',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:54',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.122',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 13:53',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.043',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 10:16',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.633',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 10:11',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.084',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8010',
+ 'LAST_CHECK_TIME': u'17-12-07 10:00',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.178',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:53',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.441',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:53',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.022',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:51',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.463',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 10:00',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.175',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'21764',
+ 'LAST_CHECK_TIME': u'17-12-07 09:55',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.211',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 09:55',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.454',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 13:50',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.03',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 13:48',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.557',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 13:44',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.18',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 09:50',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.635',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 09:49',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.429',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 09:39',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.068',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8010',
+ 'LAST_CHECK_TIME': u'17-12-07 13:44',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.217',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'30534',
+ 'LAST_CHECK_TIME': u'17-12-07 13:44',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.36',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 13:41',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.805',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 09:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.666',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'21187',
+ 'LAST_CHECK_TIME': u'17-12-07 09:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.1',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 09:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.003',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 13:41',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.039',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 13:41',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.241',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:40',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.051',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 13:38',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.073',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 09:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.293',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 09:31',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.239',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'48888',
+ 'LAST_CHECK_TIME': u'17-12-07 09:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.044',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'80',
+ 'LAST_CHECK_TIME': u'17-12-07 13:37',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.473',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:36',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.567',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 13:36',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.306',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'38185',
+ 'LAST_CHECK_TIME': u'17-12-07 09:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.06',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8010',
+ 'LAST_CHECK_TIME': u'17-12-07 09:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.334',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8010',
+ 'LAST_CHECK_TIME': u'17-12-07 09:11',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.424',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 13:34',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.409',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'40295',
+ 'LAST_CHECK_TIME': u'17-12-07 13:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.094',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:30',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.813',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 13:25',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.48',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'37155',
+ 'LAST_CHECK_TIME': u'17-12-07 09:11',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.087',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 09:10',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.3',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 09:01',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.061',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8010',
+ 'LAST_CHECK_TIME': u'17-12-07 09:01',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.565',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 08:59',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.644',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:24',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.283',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'47206',
+ 'LAST_CHECK_TIME': u'17-12-07 13:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.225',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 13:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.822',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'33316',
+ 'LAST_CHECK_TIME': u'17-12-07 13:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.025',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.066',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 08:54',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.055',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'53281',
+ 'LAST_CHECK_TIME': u'17-12-07 08:46',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.022',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'39866',
+ 'LAST_CHECK_TIME': u'17-12-07 08:46',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.234',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 08:45',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.078',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'80',
+ 'LAST_CHECK_TIME': u'17-12-07 13:20',
+ 'PORT': u'\n        \u94c1\u901a\n      ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.009',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'80',
+ 'LAST_CHECK_TIME': u'17-12-07 13:15',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.721',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 13:14',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.056',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:13',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.005',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 08:45',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.101',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 08:35',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.028',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 08:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.123',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 08:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.045',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 13:11',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.254',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 13:11',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.04',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'27116',
+ 'LAST_CHECK_TIME': u'17-12-07 13:11',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.022',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'25378',
+ 'LAST_CHECK_TIME': u'17-12-07 13:11',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.03',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8888',
+ 'LAST_CHECK_TIME': u'17-12-07 13:05',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.528',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'80',
+ 'LAST_CHECK_TIME': u'17-12-07 08:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.64',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'38208',
+ 'LAST_CHECK_TIME': u'17-12-07 08:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.066',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 08:30',
+ 'PORT': u'\n        \n      ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.109',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 08:27',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.549',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'47078',
+ 'LAST_CHECK_TIME': u'17-12-07 08:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.564',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 13:03',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.077',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:02',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.072',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 13:02',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.547',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 13:00',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.338',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 13:00',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.266',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'35239',
+ 'LAST_CHECK_TIME': u'17-12-07 08:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.031',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'49324',
+ 'LAST_CHECK_TIME': u'17-12-07 08:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.022',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8010',
+ 'LAST_CHECK_TIME': u'17-12-07 08:22',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.264',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 08:18',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.138',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 12:57',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.303',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 12:52',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.461',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'32200',
+ 'LAST_CHECK_TIME': u'17-12-07 12:45',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.12',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'808',
+ 'LAST_CHECK_TIME': u'17-12-07 08:18',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.045',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 08:03',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.747',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8118',
+ 'LAST_CHECK_TIME': u'17-12-07 08:00',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.032',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 07:59',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.828',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'37261',
+ 'LAST_CHECK_TIME': u'17-12-07 07:58',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.092',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'3128',
+ 'LAST_CHECK_TIME': u'17-12-07 07:46',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.229',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'42198',
+ 'LAST_CHECK_TIME': u'17-12-07 07:44',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.039',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'8123',
+ 'LAST_CHECK_TIME': u'17-12-07 07:43',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.377',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'23550',
+ 'LAST_CHECK_TIME': u'17-12-07 07:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'0.14',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'42283',
+ 'LAST_CHECK_TIME': u'17-12-07 07:33',
+ 'PORT': u'\n        ',
+ 'POSITION': u'\u9ad8\u533f',
+ 'SPEED': u'1.116',
+ 'TYPE': u'\n        '}
+2017-12-07 14:45:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-12-07 14:45:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 590,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 16987,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 12, 7, 6, 45, 10, 426000),
+ 'item_scraped_count': 200,
+ 'log_count/DEBUG': 203,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2017, 12, 7, 6, 45, 9, 429000)}
+2017-12-07 14:45:10 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-12-07 14:48:00 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: ScrapyCode01Dawn)
+2017-12-07 14:48:00 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'ScrapyCode01Dawn.spiders', 'SPIDER_MODULES': ['ScrapyCode01Dawn.spiders'], 'LOG_FILE': 'scrapy.log', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36', 'BOT_NAME': 'ScrapyCode01Dawn'}
+2017-12-07 14:48:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-12-07 14:48:01 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-12-07 14:48:01 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-12-07 14:48:01 [scrapy.middleware] INFO: Enabled item pipelines:
+['ScrapyCode01Dawn.pipelines.CollectipsPipeline']
+2017-12-07 14:48:01 [scrapy.core.engine] INFO: Spider opened
+2017-12-07 14:48:01 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-12-07 14:48:01 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-12-07 14:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xicidaili.com/nn/2> (referer: None)
+2017-12-07 14:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xicidaili.com/nn/1> (referer: None)
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'221.233.85.74',
+ 'LAST_CHECK_TIME': u'13\u5c0f\u65f6',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'4.307',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'101.68.73.54',
+ 'LAST_CHECK_TIME': u'112\u5929',
+ 'PORT': u'53281',
+ 'POSITION': u'\u6d59\u6c5f\u676d\u5dde',
+ 'SPEED': u'0.218',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.14.27',
+ 'LAST_CHECK_TIME': u'1\u5c0f\u65f6',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'0.296',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'120.35.12.105',
+ 'LAST_CHECK_TIME': u'8\u5c0f\u65f6',
+ 'PORT': u'3128',
+ 'POSITION': u'\u798f\u5efa\u798f\u5dde',
+ 'SPEED': u'0.282',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.165.176',
+ 'LAST_CHECK_TIME': u'55\u5206\u949f',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u67f3\u5dde',
+ 'SPEED': u'1.498',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'121.31.100.117',
+ 'LAST_CHECK_TIME': u'41\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'1.19',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.73.50.94',
+ 'LAST_CHECK_TIME': u'655\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'0.355',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'112.114.92.65',
+ 'LAST_CHECK_TIME': u'8\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'1.349',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'14.120.74.41',
+ 'LAST_CHECK_TIME': u'7\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5e7f\u4e1c\u6df1\u5733',
+ 'SPEED': u'4.237',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.185.137.247',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u56db\u5ddd\u6210\u90fd',
+ 'SPEED': u'0.27',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.43.244',
+ 'LAST_CHECK_TIME': u'54\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'1.494',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'139.199.79.251',
+ 'LAST_CHECK_TIME': u'2\u5929',
+ 'PORT': u'808',
+ 'POSITION': u'\u957f\u57ce\u5bbd\u5e26',
+ 'SPEED': u'0.352',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'182.88.135.202',
+ 'LAST_CHECK_TIME': u'7\u5c0f\u65f6',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'5.02',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.97.199',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'1.35',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'112.114.99.98',
+ 'LAST_CHECK_TIME': u'120\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.359',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'182.42.44.224',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'21788',
+ 'POSITION': u'\u5c71\u4e1c',
+ 'SPEED': u'2.088',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'122.228.179.178',
+ 'LAST_CHECK_TIME': u'465\u5929',
+ 'PORT': u'80',
+ 'POSITION': u'\u6d59\u6c5f\u6e29\u5dde',
+ 'SPEED': u'2.995',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.241.118.209',
+ 'LAST_CHECK_TIME': u'5\u5929',
+ 'PORT': u'8010',
+ 'POSITION': u'\u5b89\u5fbd',
+ 'SPEED': u'7.454',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.51.130',
+ 'LAST_CHECK_TIME': u'49\u5206\u949f',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'4.137',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.2.109',
+ 'LAST_CHECK_TIME': u'753\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'2.798',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'220.162.4.119',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'20256',
+ 'POSITION': u'\u798f\u5efa\u6cc9\u5dde',
+ 'SPEED': u'0.427',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'115.210.75.154',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'31696',
+ 'POSITION': u'\u6d59\u6c5f\u91d1\u534e',
+ 'SPEED': u'3.098',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'121.31.101.93',
+ 'LAST_CHECK_TIME': u'216\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'1.62',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'221.237.137.17',
+ 'LAST_CHECK_TIME': u'12\u5206\u949f',
+ 'PORT': u'8118',
+ 'POSITION': u'\u56db\u5ddd\u6210\u90fd',
+ 'SPEED': u'0.243',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.241.117.216',
+ 'LAST_CHECK_TIME': u'595\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5b89\u5fbd',
+ 'SPEED': u'1.14',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'113.207.7.2',
+ 'LAST_CHECK_TIME': u'7\u5929',
+ 'PORT': u'808',
+ 'POSITION': u'\u91cd\u5e86',
+ 'SPEED': u'1.521',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.97.64',
+ 'LAST_CHECK_TIME': u'130\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'2.935',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'222.137.206.170',
+ 'LAST_CHECK_TIME': u'12\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6cb3\u5357\u90d1\u5dde',
+ 'SPEED': u'0.087',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.216.67.211',
+ 'LAST_CHECK_TIME': u'5\u5929',
+ 'PORT': u'80',
+ 'POSITION': u'\u94c1\u901a',
+ 'SPEED': u'3.356',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'60.213.90.58',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5c71\u4e1c\u4e34\u6c82',
+ 'SPEED': u'3.158',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'115.202.82.177',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'21522',
+ 'POSITION': u'\u6d59\u6c5f\u53f0\u5dde',
+ 'SPEED': u'0.191',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'221.233.85.119',
+ 'LAST_CHECK_TIME': u'11\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'1.844',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'113.195.168.93',
+ 'LAST_CHECK_TIME': u'4\u5206\u949f',
+ 'PORT': u'48888',
+ 'POSITION': u'\u6c5f\u897f\u8d63\u5dde',
+ 'SPEED': u'0.255',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'125.126.171.141',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'28353',
+ 'POSITION': u'\u6d59\u6c5f\u53f0\u5dde',
+ 'SPEED': u'1.522',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'61.135.217.7',
+ 'LAST_CHECK_TIME': u'573\u5929',
+ 'PORT': u'80',
+ 'POSITION': u'\u5317\u4eac',
+ 'SPEED': u'0.324',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'122.114.31.177',
+ 'LAST_CHECK_TIME': u'10\u5929',
+ 'PORT': u'808',
+ 'POSITION': u'\u6cb3\u5357\u90d1\u5dde',
+ 'SPEED': u'0.107',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'106.12.8.215',
+ 'LAST_CHECK_TIME': u'9\u5929',
+ 'PORT': u'808',
+ 'POSITION': u'',
+ 'SPEED': u'0.122',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'115.219.85.136',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6d59\u6c5f\u6e29\u5dde',
+ 'SPEED': u'0.203',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.73.2.67',
+ 'LAST_CHECK_TIME': u'705\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'7.281',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'122.5.128.54',
+ 'LAST_CHECK_TIME': u'168\u5929',
+ 'PORT': u'808',
+ 'POSITION': u'\u5c71\u4e1c\u5fb7\u5dde',
+ 'SPEED': u'1.504',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'112.114.97.14',
+ 'LAST_CHECK_TIME': u'7\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.616',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.241.78.225',
+ 'LAST_CHECK_TIME': u'2\u5929',
+ 'PORT': u'8010',
+ 'POSITION': u'\u5b89\u5fbd\u829c\u6e56',
+ 'SPEED': u'4.424',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'116.24.153.98',
+ 'LAST_CHECK_TIME': u'20\u5206\u949f',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5e7f\u4e1c\u6df1\u5733',
+ 'SPEED': u'3.509',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'61.178.238.122',
+ 'LAST_CHECK_TIME': u'644\u5929',
+ 'PORT': u'63000',
+ 'POSITION': u'\u7518\u8083\u5170\u5dde\u5e02\u57ce\u5173\u533a',
+ 'SPEED': u'0.338',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.12.161',
+ 'LAST_CHECK_TIME': u'664\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'0.276',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'49.81.248.105',
+ 'LAST_CHECK_TIME': u'1\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6c5f\u82cf\u5f90\u5dde',
+ 'SPEED': u'0.165',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'219.138.58.253',
+ 'LAST_CHECK_TIME': u'6\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'0.584',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.93.91',
+ 'LAST_CHECK_TIME': u'5\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'3.597',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'112.114.97.65',
+ 'LAST_CHECK_TIME': u'133\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'1.704',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'183.150.136.79',
+ 'LAST_CHECK_TIME': u'7\u5c0f\u65f6',
+ 'PORT': u'808',
+ 'POSITION': u'\u6d59\u6c5f\u8862\u5dde',
+ 'SPEED': u'5.261',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'121.31.100.200',
+ 'LAST_CHECK_TIME': u'483\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'6.299',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'113.67.165.182',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5e7f\u4e1c\u5e7f\u5dde',
+ 'SPEED': u'0.307',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'139.196.127.129',
+ 'LAST_CHECK_TIME': u'2\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u957f\u57ce\u5bbd\u5e26',
+ 'SPEED': u'0.103',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'219.138.58.118',
+ 'LAST_CHECK_TIME': u'14\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'0.847',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.94.50',
+ 'LAST_CHECK_TIME': u'18\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.603',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.10.61',
+ 'LAST_CHECK_TIME': u'657\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'0.355',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.93.183',
+ 'LAST_CHECK_TIME': u'13\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.889',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'219.138.58.174',
+ 'LAST_CHECK_TIME': u'4\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'6.92',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'115.221.122.124',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'35593',
+ 'POSITION': u'\u6d59\u6c5f\u6e29\u5dde',
+ 'SPEED': u'0.693',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'111.155.116.217',
+ 'LAST_CHECK_TIME': u'248\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5317\u4eac',
+ 'SPEED': u'0.356',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.73.11.26',
+ 'LAST_CHECK_TIME': u'647\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'0.36',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'222.182.53.52',
+ 'LAST_CHECK_TIME': u'3\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u91cd\u5e86',
+ 'SPEED': u'0.23',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.96.61',
+ 'LAST_CHECK_TIME': u'7\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.439',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.49.203',
+ 'LAST_CHECK_TIME': u'205\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'3.679',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.80.204.136',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6c5f\u82cf\u5357\u4eac',
+ 'SPEED': u'0.122',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'125.37.172.149',
+ 'LAST_CHECK_TIME': u'2\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5929\u6d25',
+ 'SPEED': u'1.03',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.94.192',
+ 'LAST_CHECK_TIME': u'109\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.358',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'113.121.254.204',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'23464',
+ 'POSITION': u'\u5c71\u4e1c\u5fb7\u5dde',
+ 'SPEED': u'2.532',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'112.114.93.56',
+ 'LAST_CHECK_TIME': u'11\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.418',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'27.156.209.42',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'34258',
+ 'POSITION': u'\u798f\u5efa\u798f\u5dde',
+ 'SPEED': u'2.29',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.73.9.251',
+ 'LAST_CHECK_TIME': u'6\u5c0f\u65f6',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'5.931',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.99.146',
+ 'LAST_CHECK_TIME': u'8\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'2.808',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'114.95.116.176',
+ 'LAST_CHECK_TIME': u'2\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e0a\u6d77',
+ 'SPEED': u'7.515',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'115.55.155.152',
+ 'LAST_CHECK_TIME': u'12\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6cb3\u5357\u5f00\u5c01',
+ 'SPEED': u'0.123',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'115.46.96.250',
+ 'LAST_CHECK_TIME': u'56\u5206\u949f',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'7.086',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'121.237.136.152',
+ 'LAST_CHECK_TIME': u'12\u5c0f\u65f6',
+ 'PORT': u'808',
+ 'POSITION': u'\u6c5f\u82cf\u5357\u4eac',
+ 'SPEED': u'1.09',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'27.219.202.63',
+ 'LAST_CHECK_TIME': u'11\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5c71\u4e1c',
+ 'SPEED': u'0.084',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'180.118.244.20',
+ 'LAST_CHECK_TIME': u'6\u5c0f\u65f6',
+ 'PORT': u'61234',
+ 'POSITION': u'\u6c5f\u82cf\u9547\u6c5f',
+ 'SPEED': u'0.195',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.72.22.170',
+ 'LAST_CHECK_TIME': u'2\u5c0f\u65f6',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u8d35\u6e2f',
+ 'SPEED': u'4.737',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.241.116.168',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8010',
+ 'POSITION': u'\u5b89\u5fbd',
+ 'SPEED': u'2.276',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'113.89.59.17',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5e7f\u4e1c\u6df1\u5733',
+ 'SPEED': u'1.205',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'219.138.58.232',
+ 'LAST_CHECK_TIME': u'8\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'0.269',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'114.250.72.29',
+ 'LAST_CHECK_TIME': u'8\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5317\u4eac',
+ 'SPEED': u'0.223',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.30.57',
+ 'LAST_CHECK_TIME': u'215\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'4.916',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.247.253.230',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'41663',
+ 'POSITION': u'\u5b89\u5fbd\u94dc\u9675',
+ 'SPEED': u'6.354',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'182.34.23.11',
+ 'LAST_CHECK_TIME': u'18\u5c0f\u65f6',
+ 'PORT': u'808',
+ 'POSITION': u'\u5c71\u4e1c\u70df\u53f0',
+ 'SPEED': u'0.168',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'120.43.230.124',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'26008',
+ 'POSITION': u'\u798f\u5efa\u6cc9\u5dde',
+ 'SPEED': u'1.588',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'113.128.8.125',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'25389',
+ 'POSITION': u'\u5c71\u4e1c\u6d4e\u5357',
+ 'SPEED': u'0.279',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'125.126.168.229',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'24934',
+ 'POSITION': u'\u6d59\u6c5f\u53f0\u5dde',
+ 'SPEED': u'0.535',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.97.113',
+ 'LAST_CHECK_TIME': u'5\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.398',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'121.31.102.17',
+ 'LAST_CHECK_TIME': u'500\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'5.232',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'59.60.210.246',
+ 'LAST_CHECK_TIME': u'18\u5c0f\u65f6',
+ 'PORT': u'808',
+ 'POSITION': u'\u798f\u5efa\u4e09\u660e',
+ 'SPEED': u'0.393',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.95.133',
+ 'LAST_CHECK_TIME': u'2\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.314',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'60.175.198.203',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'42793',
+ 'POSITION': u'\u5b89\u5fbd\u5bbf\u5dde',
+ 'SPEED': u'0.154',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'1.192.228.58',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'20911',
+ 'POSITION': u'\u6cb3\u5357\u90d1\u5dde',
+ 'SPEED': u'0.181',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'61.135.155.82',
+ 'LAST_CHECK_TIME': u'147\u5929',
+ 'PORT': u'443',
+ 'POSITION': u'\u5317\u4eac',
+ 'SPEED': u'3.462',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'123.54.252.54',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'32353',
+ 'POSITION': u'\u6cb3\u5357\u9a7b\u9a6c\u5e97',
+ 'SPEED': u'3.059',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'218.87.2.227',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6c5f\u897f\u5357\u660c',
+ 'SPEED': u'0.439',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.5.73',
+ 'LAST_CHECK_TIME': u'645\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'0.272',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'113.195.168.236',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'48888',
+ 'POSITION': u'\u6c5f\u897f\u8d63\u5dde',
+ 'SPEED': u'1.408',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'113.195.164.21',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'48888',
+ 'POSITION': u'\u6c5f\u897f\u8d63\u5dde',
+ 'SPEED': u'0.804',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.79.111',
+ 'LAST_CHECK_TIME': u'4\u5206\u949f',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.768',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'183.133.84.185',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6d59\u6c5f\u5b81\u6ce2',
+ 'SPEED': u'3.168',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'221.233.85.191',
+ 'LAST_CHECK_TIME': u'20\u5c0f\u65f6',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'0.422',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.241.116.145',
+ 'LAST_CHECK_TIME': u'11\u5929',
+ 'PORT': u'8010',
+ 'POSITION': u'\u5b89\u5fbd',
+ 'SPEED': u'0.892',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'112.114.99.159',
+ 'LAST_CHECK_TIME': u'116\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.878',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'218.73.132.86',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'21764',
+ 'POSITION': u'\u6d59\u6c5f\u6e29\u5dde',
+ 'SPEED': u'1.056',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.34.36',
+ 'LAST_CHECK_TIME': u'655\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'0.443',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'60.208.44.228',
+ 'LAST_CHECK_TIME': u'129\u5929',
+ 'PORT': u'80',
+ 'POSITION': u'\u5c71\u4e1c\u6d4e\u5357',
+ 'SPEED': u'5.153',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.95.37',
+ 'LAST_CHECK_TIME': u'4\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.34',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.98.146',
+ 'LAST_CHECK_TIME': u'8\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.317',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.98.159',
+ 'LAST_CHECK_TIME': u'5\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.613',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'183.130.155.105',
+ 'LAST_CHECK_TIME': u'2\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6d59\u6c5f\u6e29\u5dde',
+ 'SPEED': u'2.273',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'125.106.224.239',
+ 'LAST_CHECK_TIME': u'5\u5206\u949f',
+ 'PORT': u'808',
+ 'POSITION': u'\u6d59\u6c5f\u8862\u5dde',
+ 'SPEED': u'3.178',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'222.188.16.253',
+ 'LAST_CHECK_TIME': u'4\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6c5f\u82cf\u76d0\u57ce',
+ 'SPEED': u'7.149',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'112.114.93.38',
+ 'LAST_CHECK_TIME': u'115\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.342',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'101.205.83.134',
+ 'LAST_CHECK_TIME': u'3\u5c0f\u65f6',
+ 'PORT': u'808',
+ 'POSITION': u'\u56db\u5ddd',
+ 'SPEED': u'0.218',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.85.133.227',
+ 'LAST_CHECK_TIME': u'21\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u798f\u5efa\u6f33\u5dde',
+ 'SPEED': u'7.208',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'123.185.129.113',
+ 'LAST_CHECK_TIME': u'20\u5206\u949f',
+ 'PORT': u'8118',
+ 'POSITION': u'\u8fbd\u5b81\u5927\u8fde',
+ 'SPEED': u'0.113',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'125.86.56.77',
+ 'LAST_CHECK_TIME': u'2\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u91cd\u5e86',
+ 'SPEED': u'7.318',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'182.46.250.225',
+ 'LAST_CHECK_TIME': u'2\u5c0f\u65f6',
+ 'PORT': u'808',
+ 'POSITION': u'\u5c71\u4e1c\u6d4e\u5357',
+ 'SPEED': u'0.153',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'182.88.254.164',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'3.332',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'120.32.137.151',
+ 'LAST_CHECK_TIME': u'194\u5929',
+ 'PORT': u'21187',
+ 'POSITION': u'\u798f\u5efa\u53a6\u95e8',
+ 'SPEED': u'0.504',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'182.46.222.19',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5c71\u4e1c\u6d4e\u5357',
+ 'SPEED': u'5.018',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'118.125.198.80',
+ 'LAST_CHECK_TIME': u'21\u5c0f\u65f6',
+ 'PORT': u'808',
+ 'POSITION': u'\u56db\u5ddd',
+ 'SPEED': u'1.468',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'219.138.58.13',
+ 'LAST_CHECK_TIME': u'4\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'1.196',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.72.34.251',
+ 'LAST_CHECK_TIME': u'97\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u8d35\u6e2f',
+ 'SPEED': u'7.786',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'171.13.37.154',
+ 'LAST_CHECK_TIME': u'237\u5929',
+ 'PORT': u'808',
+ 'POSITION': u'\u6cb3\u5357',
+ 'SPEED': u'0.9',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'223.241.119.34',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8010',
+ 'POSITION': u'\u5b89\u5fbd',
+ 'SPEED': u'6.085',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'171.11.77.200',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'30534',
+ 'POSITION': u'\u6cb3\u5357',
+ 'SPEED': u'1.804',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'113.195.163.174',
+ 'LAST_CHECK_TIME': u'12\u5929',
+ 'PORT': u'48888',
+ 'POSITION': u'\u6c5f\u897f\u8d63\u5dde',
+ 'SPEED': u'0.222',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'123.162.197.237',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'38185',
+ 'POSITION': u'\u6cb3\u5357',
+ 'SPEED': u'0.303',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.241.79.74',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8010',
+ 'POSITION': u'\u5b89\u5fbd\u829c\u6e56',
+ 'SPEED': u'1.67',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.241.79.196',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8010',
+ 'POSITION': u'\u5b89\u5fbd\u829c\u6e56',
+ 'SPEED': u'2.12',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'115.217.253.19',
+ 'LAST_CHECK_TIME': u'59\u5929',
+ 'PORT': u'37155',
+ 'POSITION': u'\u6d59\u6c5f\u5b81\u6ce2',
+ 'SPEED': u'0.437',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'121.31.102.25',
+ 'LAST_CHECK_TIME': u'579\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'4.025',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'171.35.103.37',
+ 'LAST_CHECK_TIME': u'17\u5929',
+ 'PORT': u'808',
+ 'POSITION': u'\u6c5f\u897f',
+ 'SPEED': u'0.196',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'117.68.194.118',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'808',
+ 'POSITION': u'\u5b89\u5fbd\u5408\u80a5\u5e02\u5de2\u6e56',
+ 'SPEED': u'6.207',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'125.40.8.71',
+ 'LAST_CHECK_TIME': u'7\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6cb3\u5357\u90d1\u5dde',
+ 'SPEED': u'0.256',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'60.169.78.218',
+ 'LAST_CHECK_TIME': u'1129\u5929',
+ 'PORT': u'808',
+ 'POSITION': u'\u5b89\u5fbd\u829c\u6e56',
+ 'SPEED': u'2.68',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.73.49.83',
+ 'LAST_CHECK_TIME': u'201\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'0.306',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.241.78.113',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8010',
+ 'POSITION': u'\u5b89\u5fbd\u829c\u6e56',
+ 'SPEED': u'2.829',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.73.31.70',
+ 'LAST_CHECK_TIME': u'102\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'3.221',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'221.233.85.215',
+ 'LAST_CHECK_TIME': u'22\u5c0f\u65f6',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'0.367',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'182.246.222.58',
+ 'LAST_CHECK_TIME': u'1\u5c0f\u65f6',
+ 'PORT': u'80',
+ 'POSITION': u'\u4e91\u5357',
+ 'SPEED': u'7.369',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.96.76',
+ 'LAST_CHECK_TIME': u'3\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'2.836',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.158.134',
+ 'LAST_CHECK_TIME': u'5\u5c0f\u65f6',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u6765\u5bbe',
+ 'SPEED': u'6.533',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'121.31.101.50',
+ 'LAST_CHECK_TIME': u'6\u5c0f\u65f6',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'5.278',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'124.89.33.59',
+ 'LAST_CHECK_TIME': u'115\u5929',
+ 'PORT': u'53281',
+ 'POSITION': u'\u9655\u897f\u6e2d\u5357',
+ 'SPEED': u'0.11',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'49.87.146.32',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'39866',
+ 'POSITION': u'\u6c5f\u82cf\u6dee\u5b89',
+ 'SPEED': u'1.174',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.6.154',
+ 'LAST_CHECK_TIME': u'576\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'2.045',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'49.84.86.247',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'40295',
+ 'POSITION': u'\u6c5f\u82cf\u82cf\u5dde',
+ 'SPEED': u'0.472',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.97.46',
+ 'LAST_CHECK_TIME': u'1\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'4.066',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.0.116',
+ 'LAST_CHECK_TIME': u'691\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'7.4',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'60.184.126.181',
+ 'LAST_CHECK_TIME': u'4\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6d59\u6c5f\u4e3d\u6c34',
+ 'SPEED': u'0.392',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'219.138.58.93',
+ 'LAST_CHECK_TIME': u'2\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'0.508',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'123.152.77.126',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6d59\u6c5f\u5b81\u6ce2',
+ 'SPEED': u'0.141',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'112.114.92.125',
+ 'LAST_CHECK_TIME': u'3\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.617',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.98.63',
+ 'LAST_CHECK_TIME': u'127\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'1.419',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'115.210.178.209',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'47206',
+ 'POSITION': u'\u6d59\u6c5f\u91d1\u534e',
+ 'SPEED': u'1.126',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'115.46.78.212',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'4.113',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'222.185.16.145',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6c5f\u82cf\u5e38\u5dde',
+ 'SPEED': u'0.228',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'122.237.107.173',
+ 'LAST_CHECK_TIME': u'11\u5c0f\u65f6',
+ 'PORT': u'80',
+ 'POSITION': u'\u6d59\u6c5f\u7ecd\u5174',
+ 'SPEED': u'3.201',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'115.202.245.12',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'38208',
+ 'POSITION': u'\u6d59\u6c5f\u53f0\u5dde',
+ 'SPEED': u'0.331',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'106.42.96.212',
+ 'LAST_CHECK_TIME': u'10\u5c0f\u65f6',
+ 'PORT': u'808',
+ 'POSITION': u'',
+ 'SPEED': u'0.546',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'123.162.85.214',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'33316',
+ 'POSITION': u'\u6cb3\u5357\u7126\u4f5c',
+ 'SPEED': u'0.125',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.97.191',
+ 'LAST_CHECK_TIME': u'5\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.331',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'114.115.216.99',
+ 'LAST_CHECK_TIME': u'57\u5929',
+ 'PORT': u'80',
+ 'POSITION': u'\u94c1\u901a',
+ 'SPEED': u'0.045',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'211.159.171.58',
+ 'LAST_CHECK_TIME': u'4\u5929',
+ 'PORT': u'80',
+ 'POSITION': u'\u5317\u4eac',
+ 'SPEED': u'3.609',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.72.30.199',
+ 'LAST_CHECK_TIME': u'466\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u8d35\u6e2f',
+ 'SPEED': u'2.749',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'110.189.207.146',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'47078',
+ 'POSITION': u'\u56db\u5ddd\u5fb7\u9633',
+ 'SPEED': u'2.824',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'49.85.3.182',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'35239',
+ 'POSITION': u'\u6c5f\u82cf\u6cf0\u5dde',
+ 'SPEED': u'0.156',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'123.160.34.171',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'49324',
+ 'POSITION': u'\u6cb3\u5357\u90d1\u5dde',
+ 'SPEED': u'0.113',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.73.6.212',
+ 'LAST_CHECK_TIME': u'670\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u9632\u57ce\u6e2f',
+ 'SPEED': u'0.283',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'123.114.203.186',
+ 'LAST_CHECK_TIME': u'11\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u5317\u4eac',
+ 'SPEED': u'0.025',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'219.138.58.246',
+ 'LAST_CHECK_TIME': u'23\u5c0f\u65f6',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'1.274',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'60.185.201.160',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'808',
+ 'POSITION': u'\u6d59\u6c5f\u821f\u5c71',
+ 'SPEED': u'0.2',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'113.120.62.8',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'27116',
+ 'POSITION': u'\u5c71\u4e1c\u6d4e\u5357',
+ 'SPEED': u'0.11',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'223.241.78.35',
+ 'LAST_CHECK_TIME': u'51\u5929',
+ 'PORT': u'8010',
+ 'POSITION': u'\u5b89\u5fbd\u829c\u6e56',
+ 'SPEED': u'6.322',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'219.138.58.33',
+ 'LAST_CHECK_TIME': u'10\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'0.693',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'175.155.70.81',
+ 'LAST_CHECK_TIME': u'3\u5c0f\u65f6',
+ 'PORT': u'808',
+ 'POSITION': u'\u56db\u5ddd\u5fb7\u9633',
+ 'SPEED': u'0.226',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'171.38.22.68',
+ 'LAST_CHECK_TIME': u'1\u5c0f\u65f6',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u7389\u6797',
+ 'SPEED': u'3.736',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'49.87.75.100',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'25378',
+ 'POSITION': u'\u6c5f\u82cf\u6dee\u5b89',
+ 'SPEED': u'0.151',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'60.255.186.169',
+ 'LAST_CHECK_TIME': u'114\u5929',
+ 'PORT': u'8888',
+ 'POSITION': u'\u56db\u5ddd',
+ 'SPEED': u'2.64',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'110.72.25.72',
+ 'LAST_CHECK_TIME': u'683\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u8d35\u6e2f',
+ 'SPEED': u'0.389',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'115.150.114.228',
+ 'LAST_CHECK_TIME': u'2\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u6c5f\u897f\u8d63\u5dde',
+ 'SPEED': u'0.16',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'171.37.85.54',
+ 'LAST_CHECK_TIME': u'6\u5c0f\u65f6',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'4.14',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'180.115.14.172',
+ 'LAST_CHECK_TIME': u'36\u5206\u949f',
+ 'PORT': u'37261',
+ 'POSITION': u'\u6c5f\u82cf\u5e38\u5dde',
+ 'SPEED': u'0.46',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.92.141',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'0.363',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'219.138.58.245',
+ 'LAST_CHECK_TIME': u'12\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'2.737',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'219.138.58.179',
+ 'LAST_CHECK_TIME': u'9\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'1.691',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.98.232',
+ 'LAST_CHECK_TIME': u'7\u5c0f\u65f6',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'1.332',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'219.138.58.144',
+ 'LAST_CHECK_TIME': u'12\u5929',
+ 'PORT': u'3128',
+ 'POSITION': u'\u6e56\u5317\u8944\u9633',
+ 'SPEED': u'1.148',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'49.85.9.182',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'42198',
+ 'POSITION': u'\u6c5f\u82cf\u6cf0\u5dde',
+ 'SPEED': u'0.196',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'115.46.66.204',
+ 'LAST_CHECK_TIME': u'2\u5c0f\u65f6',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'6.886',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'113.121.37.238',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'23550',
+ 'POSITION': u'\u5c71\u4e1c\u70df\u53f0',
+ 'SPEED': u'0.7',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/2>
+{'IP': u'171.12.226.82',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'42283',
+ 'POSITION': u'\u6cb3\u5357',
+ 'SPEED': u'5.581',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'182.88.128.21',
+ 'LAST_CHECK_TIME': u'498\u5929',
+ 'PORT': u'8123',
+ 'POSITION': u'\u5e7f\u897f\u5357\u5b81',
+ 'SPEED': u'6.518',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'112.114.98.163',
+ 'LAST_CHECK_TIME': u'1\u5929',
+ 'PORT': u'8118',
+ 'POSITION': u'\u4e91\u5357\u4e34\u6ca7',
+ 'SPEED': u'2.308',
+ 'TYPE': u'HTTPS'}
+2017-12-07 14:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.xicidaili.com/nn/1>
+{'IP': u'180.115.11.145',
+ 'LAST_CHECK_TIME': u'1\u5206\u949f',
+ 'PORT': u'32200',
+ 'POSITION': u'\u6c5f\u82cf\u5e38\u5dde',
+ 'SPEED': u'0.604',
+ 'TYPE': u'HTTP'}
+2017-12-07 14:48:01 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-12-07 14:48:01 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 590,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 16984,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 12, 7, 6, 48, 1, 953000),
+ 'item_scraped_count': 200,
+ 'log_count/DEBUG': 203,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2017, 12, 7, 6, 48, 1, 98000)}
+2017-12-07 14:48:01 [scrapy.core.engine] INFO: Spider closed (finished)
